@@ -1,4 +1,102 @@
-* {
+html, * {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  background-color: lemonchiffon;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 4px 8px;
+  margin: 0 4px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: rgb(66, 218, 154);
+  color: white;
+}
+
+section {
+  display: flex;
+  padding: 20px;
+}
+
+section > h2 {
+  margin-right: 12px;
+  text-align: right;
+  width: 300px;
+}
+
+section > div {
+  padding: 0 12px;
+  border-left: 1px solid red;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article a {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  padding: 20p;
+  border: 2px solid whitesmoke;
+  background-color: #ffffff;
+  text-decoration: none;
+  display: block;
+  transform: translateY(-50%);
+}
+
+article {
+  display: flex;
+  width: 50%;
+  background-color: black;
+  border: 4px solid red;
+  color: #fff;
+  height: 100px;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-y: hidden;
+  position: relative;
+}
+
+article > img {
+  width: 100%;
+  height: auto;
+  transition: all 250ms ease;
+}
+
+article:hover img {
+  transform: scale(1.1);
+}
+
+article:hover a {
+  transform: translate(-8px, -50%);
+}
+
+article:nth-child(1) {
+  width: 100%;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -30,6 +128,20 @@ header h1 {
   font-size: 48px;
 }
 
+h2 {
+  font-size: 35px;
+  color: black;
+}
+
+aside {
+  display: inline-block;
+  border: 4px solid black;
+  width: 12%;
+  padding: 20px;
+  margin: 25px;
+  text-align: right;
+}
+
 nav a {
   padding: 10px;
   margin: 20px;
@@ -58,12 +170,13 @@ p {
 }
 
 .seorefactorproject {
-  height: 300px;
+  height: 250px;
   width: 100%;
-  margin-bottom: 25px;
+  margin: 25px;
   background-image: url("../images/coverimageone.jpg");
   background-size: cover;
   background-position: center;
+  color: rgb(66, 218, 154);
 }
 
 #aboutme {
@@ -73,11 +186,19 @@ p {
   padding: 20px;
 }
 
+.aboutme {
+
+}
+
 #work {
   display: inline-block;
   background-color: #ffffff;
   margin: 25px;
   padding: 20px;
+}
+
+.work {
+  justify-content: space-between;
 }
 
 #contactme {
@@ -87,10 +208,14 @@ p {
   padding: 20px;
 }
 
+.contactme {
+
+}
+
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
-    
+     */
