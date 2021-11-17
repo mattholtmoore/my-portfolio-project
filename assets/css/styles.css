@@ -15,15 +15,14 @@ body {
 }
 
 header {
-  padding: 20px 20 20 0;
+  padding: px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 28px;
   background-color: black;
-  color: rgb(66, 218, 154);
+  color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
 }
 
 header h1 {
@@ -37,7 +36,7 @@ nav a {
   margin-right: 30px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  color: rgb(66, 218, 154);
+  color: white;
   display: inline-block;
   text-decoration: none;
 }
@@ -63,7 +62,7 @@ p {
   height: 300px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-image: url("../images/coverimageone.jpg");
   background-size: cover;
   background-position: center;
 }
