@@ -24,10 +24,10 @@ This project is a small snippet of my life and current work. It's a way to get t
 ***
 
 ## Visuals
-![homepage](assets/images/homepage.png "homepage image")
+![portfolio](./assets/images/portfolioscreencap.png "portfolio image")
 ***
 
 ## Usage
-**Horiseon** is a social solutions service specializing in search engine optimization, online reputation management and social media marketing.
+**Matt Moore** is a My Portfolio page to let you know who I am and how to contact me.
 
-This website is used for clients who are looking for support in managing and leveraging their online traction and momentum. Here they will become more successful in their online presence. 
+This website is intended to educate the people who are curious about me and looking into my life and work.  
