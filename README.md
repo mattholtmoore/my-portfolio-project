@@ -1,6 +1,4 @@
-# my-portfolio-project
-
-# **Matt Moore Portfolio**
+# **Matthew Moore Portfolio**
 ***
 
 ## Table of Contents
@@ -24,10 +22,10 @@ This project is a small snippet of my life and current work. It's a way to get t
 ***
 
 ## Visuals
-![portfolio](./assets/images/portfolioscreencap.png "portfolio image")
+![portfolio](assets/images/newportfolioscreenshot.png "portfolio image")
 ***
 
 ## Usage
-**Matt Moore** is a My Portfolio page to let you know who I am and how to contact me.
+**Matthew Moore Portfolio** is a dedicated Portfolio page to let you know who I am and how to contact me.
 
 This website is intended to educate the people who are curious about me and looking into my life and work.  
