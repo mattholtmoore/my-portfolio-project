@@ -6,30 +6,62 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <!-- Fonts Link -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <!-- FontsAwesome Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <!-- Bootstrap Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <!-- Previously attached Reset Stylesheet -->
   <link rel="reset" href="./assets/css/reset.css">
+  <!-- Previously attached CSS Stylesheet -->
   <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body>
   <header>
-    <h1>Matt Moore</h1>
-    <nav>
+    <h1> Matthew Holt Moore </h1>
+    <nav class="navbar navbar-expand-lg navbar-active">
+      <div class="navbar-brand active">PORTFOLIO</div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"  aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+      </button>
+      <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="#aboutme">About Me <span></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://drive.google.com/file/d/1LA3_2hG1vbu_QLBfw4yhhf24hHKmnKGP/view?usp=sharing" target="_blank" tabindex="-1" aria-disabled="true">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- <nav class="">
       <a href="#aboutme">About Me</a>
       <a href="#work">Work</a>
       <a href="#contact">Contact</a>
-      <a
-        href="https://docs.google.com/document/d/1wcktBm4zx6eomPiLloEjoiCZfGBkHV-n/edit?usp=sharing&ouid=113602806051010253964&rtpof=true&sd=true">Resume</a>
-    </nav>
+      <a href="https://docs.google.com/document/d/1wcktBm4zx6eomPiLloEjoiCZfGBkHV-n/edit?usp=sharing&ouid=113602806051010253964&rtpof=true&sd=true" target="_blank" >Resume</a>
+    </nav> -->
   </header>
 
   <div class="hero"></div>
 
+  <img id="pic" src="assets/images/myphoto.jpeg" class="rounded mx-auto d-block img-thumbnail photo" alt="My Profile Pic">
+
   <section>
+
     <h2 id="aboutme">About Me</h2>
-    <div>
+    <div class="card">
       <p>
         Hey! I'm Matt. I live in Louisburg, North Carolina. I'm Amanda's husband and Koa's and Jovie's daddy.
-        I have a chocolate lab named Oakley. I'm currently a student at UNC Charlotte learning the art of coding and web
+         I really love singing, playing instruments and writing songs. I have a chocolate lab named Oakley. I'm currently a student at UNC Charlotte learning the art of coding and web
         development. I've had a plethora of great learning experiences throughout my career.
         Each one teaching me more about myself
         and how to communicate and care for the people I encounter. Whether that was preparing and cooking meals,
@@ -49,31 +81,35 @@
       </p>
     </div>
   </section>
+
   <section>
     <h2 id="work">Work</h2>
     <div>
       <article>
-        <img alt="SEO Refactor Project" src="./assets/images/digital-marketing-meeting.jpg" />
-        <a href="https://mattholtmoore.github.io/seo-refactor-project/" target="_blank">SEO Refactor Project</a>
+        <img alt="Weather DashBored Project" src="./assets/images/weatherdashbored.png" class="img-fluid"/>
+        <a href="https://jacobotaylor.github.io/band-weather-app/" target="_blank">Weather DashBored</a>
       </article>
+
       <article>
-        <img alt="workstation" src="./assets/images/ian-dooley-DJ7bWa-Gwks-unsplash.jpg" />
-        <a href="">Coming Soon</a>
+        <img alt="Code Quiz Project" src="./assets/images/codequiz.png" class="img-fluid"/>
+        <a href="https://mattholtmoore.github.io/code-quiz-project/">Code Quiz</a>
       </article>
+
       <article>
-        <img alt="coffee" src="./assets/images/alex-padurariu-VxtWBOQjGdI-unsplash.jpg" />
-        <a href="">Coming Soon</a>
+        <img alt="Work Day Scheduler" src="./assets/images/day-planner.png" class="img-fluid" />
+        <a href="https://mattholtmoore.github.io/day-planner-project/">Work Day Scheduler</a>
       </article>
+      
     </div>
   </section>
-
+  
   <section>
     <h2 id="contact">Contact</h2>
-    <div>
-      <a href="tel:919-495-2272">919-495-2272</a>
-      <a href="mailto:mattholtmoore@gmail.com">mattholtmoore@gmail.com</a>
-      <a href="https://github.com/mattholtmoore">GitHub</a>
-      <a href="https://www.linkedin.com/in/matthew-moore-421404221/">LinkedIn</a>
+    <div class="justify-content-around">
+      <a class="card" href="tel:919-495-2272">919-495-2272</a>
+      <a class="card" href="mailto:mattholtmoore@gmail.com">mattholtmoore@gmail.com</a>
+      <a class="card" href="https://github.com/mattholtmoore" target="_blank">GitHub</a>
+      <a class="card" href="https://www.linkedin.com/in/mattholtmoore/" target="_blank">LinkedIn</a>
     </div>
   </section>
 
