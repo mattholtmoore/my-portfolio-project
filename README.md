@@ -1,19 +1,20 @@
-# **Matthew Moore Portfolio**
+# **Matthew Moore: Portfolio**
 ***
 
 ## Table of Contents
-1. [Description](#description)  
-2. [Links](#links)  
-3. [Visuals](#visuals)  
-4. [Usage](#usage)  
+- [Description](#description)  
+- [Links](#links)  
+- [Visuals](#visuals)  
+- [Usage](#usage)  
+- [Questions](#questions)
+
 ***
 
 ## Description
-This project is a small snippet of my life and current work. It's a way to get to know me and know how to contact me. In the body, you'll see an About Me that lets you know who I am and what I do. You'll also find a work section with a link to one of my recent projects and a couple "coming soon" links. Towards the bottom of the page you'll see my contact information, along with links to my GitHub and my LinkedIn accounts.
+
+This is a dedicated portfolio page to let you know who I am and how to contact me. It is a small snippet into my life and work. In the body, you'll see an About Me that lets you know who I am and what I do. You'll also find a work section with a link to a few of my recent projects. Towards the bottom of the page you'll see my contact information, along with links to my GitHub and my LinkedIn accounts.
 
 ***
-
-
 
 ## Links
 [Link to Portfolio](https://mattholtmoore.github.io/my-portfolio-project/)
@@ -22,10 +23,11 @@ This project is a small snippet of my life and current work. It's a way to get t
 ***
 
 ## Visuals
-![portfolio](assets/images/newportfolioscreenshot.png "portfolio image")
+![portfolio](assets/images/new-portfolio.png "portfolio image")
 ***
 
-## Usage
-**Matthew Moore Portfolio** is a dedicated Portfolio page to let you know who I am and how to contact me.
+## Questions
+If you have any questions at all, please email me at: mattholtmoore@gmail.com
 
-This website is intended to educate the people who are curious about me and looking into my life and work.  
+You can also find me on GitHub at: https://www.github.com/mattholtmoore
+ 
