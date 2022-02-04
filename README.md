@@ -5,14 +5,13 @@
 - [Description](#description)  
 - [Links](#links)  
 - [Visuals](#visuals)  
-- [Usage](#usage)  
 - [Questions](#questions)
 
 ***
 
 ## Description
 
-This is a dedicated portfolio page to let you know who I am and how to contact me. It is a small snippet into my life and work. In the body, you'll see an About Me that lets you know who I am and what I do. You'll also find a work section with a link to a few of my recent projects. Towards the bottom of the page you'll see my contact information, along with links to my GitHub and my LinkedIn accounts.
+This is a dedicated portfolio page to let you know who I am and a quick way to contact me. You'll see an About Me that lets you know who I am and what I do. You'll also find a Projects section with a links to a few of my projects. In the footer, you'll see my contact information, along with links to my GitHub and my LinkedIn accounts.
 
 ***
 
@@ -23,7 +22,7 @@ This is a dedicated portfolio page to let you know who I am and how to contact m
 ***
 
 ## Visuals
-![portfolio](assets/images/new-portfolio.png "portfolio image")
+![portfolio](assets/images/my-portfolio.gif "portfolio image")
 ***
 
 ## Questions
