@@ -15,104 +15,194 @@
   <!-- Previously attached Reset Stylesheet -->
   <link rel="reset" href="./assets/css/reset.css">
   <!-- Previously attached CSS Stylesheet -->
-  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/newStyles.css">
 </head>
 
-<body class="justify-content-center">
-  <header class="fixed-top">
-    <h1> Matt Holt Moore </h1>
-    <nav class="navbar navbar-expand-lg navbar-active">
-      <div class="navbar-brand active">PORTFOLIO</div>
+<body>
+  <header>
+    <!-- Nav -->
+    <nav class="color navbar navbar-expand-md bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#"></a>
+      <h1 class="nav navbar-active text-info">PORTFOLIO</h1>
+
+      <!-- Toggler/collapsibe Button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        aria-controls="collapse-navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <ul class="navbar-nav">
-        <li class="nav-item ">
-          <a class="nav-link" href="#aboutme">About Me <span></span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#work">Work</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://drive.google.com/file/d/1nXVcg15h1yAiVHt2IB30w5wdNqW25o7Z/view?usp=sharing"
-            target="_blank" tabindex="-1" aria-disabled="true">Resume</a>
-        </li>
-      </ul>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <h3 class="m-4">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted"
+                href="https://drive.google.com/file/d/1iQpkV8c2CJLgN9mQ6NM3j2FJX-N_-6Ce/view?usp=sharing"
+                target="_blank" tabindex="-1" aria-disabled="true">Resume</a>
+            </li>
+          </ul>
+        </h3>
       </div>
     </nav>
+    <div class="position-relative overflow-hidden p-3 p-md-5 text-start" id="hero">
+      <div class="col-md-5 p-lg-5">
+        <h1 class="text-light text-left fw-bold">Matt Holt Moore</h1>
+      </div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+      </div>
+    </div>
+    </div>
   </header>
 
-  <div class="hero"></div>
+  <!-- About -->
+  <img id="photo" src="assets/images/myphoto.jpeg"
+    class="mb-5 rounded mx-auto d-block img-thumbnail photo border-lg border-dark" alt="My Profile Pic">
 
-  <img id="pic" src="assets/images/myphoto.jpeg" class="rounded mx-auto d-block img-thumbnail photo"
-    alt="My Profile Pic">
+  <div class="border border-dark container py-4 card shadow-lg p-3 mb-5" id="about">
+    <div class="border-bottom pb-2 mb-3">
+      <h3 class="title fs-4 text-muted">About Me</h3>
+    </div>
 
-  <section>
-
-    <h2 id="aboutme">About Me</h2>
-    <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 55rem;">
-      <p>
-        ✤ Full-Stack Web Developer leveraging ministry and music background to build a more relatable and intentional
-        user experience on the web. A lifelong learner and a firm believer that education should never stop. Always
-        expanding knowledge and experience by keeping with the evolving trends, techniques, and technologies to
-        streamline efficiency. Recently earned a certificate in full-stack development from the University of North
-        Carolina Charlotte Coding, with newly developed skills in HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js,
-        Node.js, React.js, GraphQL, and responsive web design. Equipped with skills needed to create products that bring
-        joy to the lives of the users.
-
+    <div class="p-5 mb-4 text-light bg-dark rounded-3">
+      <div class="container-fluid p-5">
+        <h5>
+          ✤ Full-Stack Web Developer leveraging ministry and music background to build a more relatable and intentional
+          user experience on the web. A lifelong learner and a firm believer that education should never stop. Always
+          expanding knowledge and experience by keeping with the evolving trends, techniques, and technologies to
+          streamline efficiency. Recently earned a certificate in full-stack development from the University of North
+          Carolina Charlotte Coding, with newly developed skills in HTML, CSS, JavaScript, jQuery, Bootstrap, Moment.js,
+          Node.js, React.js, GraphQL, and responsive web design. Equipped with skills needed to create products that
+          bring
+          joy to the lives of the users.
+        </h5>
         <br />
-
-        ✤ Known as a fun and caring teammate and leader with a focus on putting the person first and serving them in the
-        best way possible with efficiency and effectiveness. The product created is a byproduct of the care for the
-        individual or company that I have the opportunity to serve. Excited to leverage my skills as part of an
-        intentional and quality-driven team to build better experiences on the web and ensure the client always feels
-        cared for.
-      </p>
+        <h5>
+          ✤ Known as a fun and caring teammate and leader with a focus on putting the person first and serving them in
+          the
+          best way possible with efficiency and effectiveness. The product created is a byproduct of the care for the
+          individual or company that I have the opportunity to serve. Excited to leverage my skills as part of an
+          intentional and quality-driven team to build better experiences on the web and ensure the client always feels
+          cared for.
+        </h5>
+      </div>
     </div>
-  </section>
+  </div>
 
-  <section>
-    <h2 id="work">Work</h2>
-    <div>
-      <article>
-        <img alt="Weather DashBored Project" src="assets/images/storm-img.jpg" class="img-fluid" />
-        <a href="https://jacobotaylor.github.io/band-weather-app/" target="_blank">Weather DashBored</a>
-      </article>
-
-      <article>
-        <img alt="Code Quiz Project" src="assets/images/rubiks-img.jpg" class="img-fluid" />
-        <a href="https://mattholtmoore.github.io/code-quiz-project/">Code Quiz</a>
-      </article>
-
-      <article>
-        <img alt="Work Day Scheduler" src="assets/images/workFlow.jpg" class="img-fluid" />
-        <a href="https://mattholtmoore.github.io/day-planner-project/">Work Day Scheduler</a>
-      </article>
-
+  <!-- Projects -->
+  <div class="border border-dark container py-4 card shadow-lg p-3 mb-5 projects" id="projects">
+    <div class="border-bottom pb-2 mb-3">
+      <h3 class="title fs-4 text-muted">My Projects</h3>
     </div>
-  </section>
 
-  <section>
-    <h2 id="contact">Contact</h2>
-    <div class="justify-content-around">
-      <a class="card text-center justify-content-around" href="tel:919-495-2272">919-495-2272</a>
-      <a class="card text-center justify-content-around"
-        href="mailto:mattholtmoore@gmail.com">mattholtmoore@gmail.com</a>
-      <a class="card text-center justify-content-around" href="https://github.com/mattholtmoore"
-        target="_blank">GitHub<i class="fab fa-github"></i></a>
-      <a class="card text-center justify-content-around" href="https://www.linkedin.com/in/mattholtmoore/"
-        target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+    <div class="text-light rounded-3 text-center p-5 mb-3" id="one">
+      <div class="container-fluid py-5">
+        <h2 class="fs-1 fw-bold m-5">Presidential Gallery</h2>
+        <a class="btn btn-info btn-lg mb-2 border border-dark fw-bold"
+          href="https://floating-chamber-62136.herokuapp.com/" target="_blank">Merica'</a>
+        <br />
+        <a class="btn btn-dark btn-lg border border-info fw-bold"
+          href="https://github.com/mattholtmoore/presidential-gallery" target="_blank">Go To Github</a>
+      </div>
     </div>
-  </section>
 
-  <footer>
-    <h3>
-      Thanks for checking out my Portfolio. Be sure to reach out and say hello!
-    </h3>
-  </footer>
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6 mb-2">
+        <div class="text-light rounded-3 text-center h-100 p-5" id="two">
+          <h2 class="fw-bold mb-5">Weather DashBored</h2>
+          <a class="btn btn-info btn-md mb-2 border border-dark fw-bold"
+            href="https://jacobotaylor.github.io/band-weather-app/" target="_blank">Check The Weather</a>
+          <br />
+          <a class="btn btn-dark btn-md border border-info fw-bold"
+            href="https://github.com/jacobotaylor/band-weather-app" target="_blank">Go To Github</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-2">
+        <div class="text-light rounded-3 text-center h-100 p-5" id="three">
+          <h2 class="fw-bold mb-5">
+            Work Day Scheduler
+          </h2>
+          <a class="btn btn-info btn-md mb-2 border border-dark fw-bold"
+            href="https://mattholtmoore.github.io/day-planner-project/" target="_blank">Plan Your Work Day</a>
+          <br />
+          <a class="btn btn-dark btn-md border border-info fw-bold"
+            href="https://github.com/mattholtmoore/day-planner-project" target="_blank">Go To Github</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6 mb-2">
+        <div class="text-light rounded-3 text-center h-100 p-5" id="four">
+          <h2 class="fw-bold mb-5">
+            Code Quiz Challenge
+          </h2>
+          <a class="btn btn-info btn-md mb-2 border border-dark fw-bold"
+            href="https://mattholtmoore.github.io/code-quiz-project/" target="_blank">Take A Quiz</a>
+          <br />
+          <a class="btn btn-dark btn-md border border-info fw-bold"
+            href="https://github.com/mattholtmoore/code-quiz-project" target="_blank">Go To Github</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-2">
+        <div class="text-light rounded-3 text-center h-100 p-5" id="five">
+          <h2 class="fw-bold mb-5">
+            Password Generator
+          </h2>
+          <a class="btn btn-info btn-md mb-2 border border-dark fw-bold"
+            href="https://mattholtmoore.github.io/password-generator-project/" target="_blank">Keep It Secret</a>
+          <br />
+          <a class="btn btn-dark btn-md border border-info fw-bold"
+            href="https://github.com/mattholtmoore/password-generator-project" target="_blank">Go To Github</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-light rounded-3 text-center p-5 mt-3" id="six">
+      <div class="container-fluid py-5">
+        <h2 class="fs-1 fw-bold m-5">
+          Team Profile Generator
+        </h2>
+        <a class="btn btn-info btn- mb-2 border border-dark fw-bold"
+          href="https://mattholtmoore.github.io/team-profile-generator-project/" target="_blank">Build Your Team</a>
+        <br />
+        <a class="btn btn-dark btn-md border border-info fw-bold"
+          href="https://github.com/mattholtmoore/team-profile-generator-project" target="_blank">Go To Github</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div>
+    <footer class="row justify-content-between align-items-center mt-auto p-3 border-top font-weight-bold">
+
+      <div class="col-md-12"></div>
+      <h1 class="col-sm-12 col-md-3 text-center justify-content-around mb-3">
+        <a class="text-info" href="tel:919-495-2272"><i class="fas fa-phone"></i>
+        </a>
+      </h1>
+      <h1 class="col-sm-12 col-md-3 text-center justify-content-around mb-3">
+        <a class="text-info" href="mailto:mattholtmoore@gmail.com"><i class="fas fa-envelope"></i></a>
+      </h1>
+      <h1 class="col-sm-12 col-md-3 text-center justify-content-around mb-3">
+        <a class="text-info" href="https://github.com/mattholtmoore" target="_blank"><i class="fab fa-github"></i></a>
+      </h1>
+      <h1 class="col-sm-12 col-md-3 text-center justify-content-around mb-3">
+        <a class="text-info" href="https://www.linkedin.com/in/mattholtmoore/" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+      </h1>
+
+    </footer>
+
+  </div>
 
 </body>
 
