@@ -5,54 +5,47 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <!-- Fonts Link -->
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
-  <!-- FontsAwesome Link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-  <!-- Bootstrap Link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-  <!-- Previously attached Reset Stylesheet -->
-  <link rel="reset" href="./assets/css/reset.css">
-  <!-- Previously attached CSS Stylesheet -->
+  <title>Matt Holt Moore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/newStyles.css">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
 
 <body>
   <header>
-    <!-- Nav -->
-    <nav class="color navbar navbar-expand-md bg-dark navbar-dark">
-      <!-- Brand -->
-      <a class="navbar-brand" href="#"></a>
-      <h1 class="nav navbar-active text-info">PORTFOLIO</h1>
+    <nav class="color navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-info fs-1" href="#PORTFOLIO">PORTFOLIO</a>
 
-      <!-- Toggler/collapsibe Button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="collapse-navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <h3 class="m-4">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link text-muted" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-muted" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-muted"
-                href="https://drive.google.com/file/d/1iQpkV8c2CJLgN9mQ6NM3j2FJX-N_-6Ce/view?usp=sharing"
-                target="_blank" tabindex="-1" aria-disabled="true">Resume</a>
-            </li>
-          </ul>
-        </h3>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <h3 class="m-4">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-muted" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-muted" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-muted"
+                  href="https://drive.google.com/file/d/1iQpkV8c2CJLgN9mQ6NM3j2FJX-N_-6Ce/view?usp=sharing"
+                  target="_blank" tabindex="-1" aria-disabled="true">Resume</a>
+              </li>
+            </ul>
+          </h3>
+        </div>
       </div>
     </nav>
+
     <div class="position-relative overflow-hidden p-3 p-md-5 text-start" id="hero">
       <div class="col-md-5 p-lg-5">
-        <h1 class="text-light text-left fw-bold">Matt Holt Moore</h1>
+        <h1 class="text-light text-left fw-bold" id="home">Matt Holt Moore</h1>
       </div>
       <div class="product-device product-device-2 shadow-sm d-none d-md-block">
       </div>
@@ -60,7 +53,6 @@
     </div>
   </header>
 
-  <!-- About -->
   <img id="photo" src="assets/images/myphoto.jpeg"
     class="mb-5 rounded mx-auto d-block img-thumbnail photo border-lg border-dark" alt="My Profile Pic">
 
@@ -96,7 +88,6 @@
     </div>
   </div>
 
-  <!-- Projects -->
   <div class="border border-dark container py-4 card shadow-lg p-3 mb-5 projects" id="projects">
     <div class="border-bottom pb-2 mb-3">
       <h3 class="title fs-4 text-muted">My Projects</h3>
@@ -104,7 +95,13 @@
 
     <div class="text-light rounded-3 text-center p-5 mb-3" id="one">
       <div class="container-fluid py-5">
-        <h2 class="fs-1 fw-bold m-5">Presidential Gallery</h2>
+        <h2 class="fs-1 fw-bold">Presidential Gallery</h2>
+        <h5 class="bg-dark text-light text-center p-3">
+          Allows a user to view current and past presidents along with the ability to log in and out to find additional
+          details on specific presidents.
+          <br />
+          Built using JavaScript, CSS, Handlebars
+        </h5>
         <a class="btn btn-info btn-lg mb-2 border border-dark fw-bold"
           href="https://floating-chamber-62136.herokuapp.com/" target="_blank">Merica'</a>
         <br />
@@ -127,9 +124,15 @@
 
       <div class="col-md-6 mb-2">
         <div class="text-light rounded-3 text-center h-100 p-5" id="three">
-          <h2 class="fw-bold mb-5">
+          <h2 class="fw-bold mx-auto">
             Work Day Scheduler
           </h2>
+          <p class="bg-dark text-light text-center p-3">
+            A simple calendar application that allows a user to save events for
+            each hour of the day.
+            <br />
+            Built using JavaScript, HTML, CSS
+          </p>
           <a class="btn btn-info btn-md mb-2 border border-dark fw-bold"
             href="https://mattholtmoore.github.io/day-planner-project/" target="_blank">Plan Your Work Day</a>
           <br />
@@ -142,9 +145,14 @@
     <div class="row align-items-md-stretch">
       <div class="col-md-6 mb-2">
         <div class="text-light rounded-3 text-center h-100 p-5" id="four">
-          <h2 class="fw-bold mb-5">
+          <h2 class="fw-bold">
             Code Quiz Challenge
           </h2>
+          <p class="bg-dark text-light text-center p-3">
+            A timed coding quiz app that runs in the browser with multiple-choice questions.
+            <br />
+            Built using JavaScript, HTML, CSS
+          </p>
           <a class="btn btn-info btn-md mb-2 border border-dark fw-bold"
             href="https://mattholtmoore.github.io/code-quiz-project/" target="_blank">Take A Quiz</a>
           <br />
@@ -155,9 +163,15 @@
 
       <div class="col-md-6 mb-2">
         <div class="text-light rounded-3 text-center h-100 p-5" id="five">
-          <h2 class="fw-bold mb-5">
+          <h2 class="fw-bold">
             Password Generator
           </h2>
+          <p class="bg-dark text-light text-center p-3">
+            Generates random passwords based on criteria the user has selected. Uses Lowercase Characters, Uppercase
+            Characters, Numeric Characters & Special Characters.
+            <br />
+            Built using JavaScript, HTML, CSS
+          </p>
           <a class="btn btn-info btn-md mb-2 border border-dark fw-bold"
             href="https://mattholtmoore.github.io/password-generator-project/" target="_blank">Keep It Secret</a>
           <br />
@@ -169,7 +183,7 @@
 
     <div class="text-light rounded-3 text-center p-5 mt-3" id="six">
       <div class="container-fluid py-5">
-        <h2 class="fs-1 fw-bold m-5">
+        <h2 class="fs-1 fw-bold mb-5">
           Team Profile Generator
         </h2>
         <a class="btn btn-info btn- mb-2 border border-dark fw-bold"
@@ -182,7 +196,6 @@
 
   </div>
 
-  <!-- Footer -->
   <div>
     <footer class="row justify-content-between align-items-center mt-auto p-3 border-top font-weight-bold">
 
@@ -205,6 +218,7 @@
     </footer>
 
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
