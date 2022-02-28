@@ -29,9 +29,12 @@ header {
   font-weight: bold;
   font-size: 24px;
   font-family: Roboto;
-  color: black;
   height: auto;
   width: 100%;
+}
+
+.color a:hover {
+  color:#5bc0de;
 }
 
 h1 {
@@ -50,17 +53,18 @@ h1 {
   min-height: 300px;
   /* Gif per Giphy: https://giphy.com/gifs/storm-hurricane-irma-nMT8FHxdwgCnS*/
   background-image: url(../images/hurricane-funny.gif);
-  background-repeat: round;
+  background-size: cover;
 }
 
 #three {
+  min-width: auto;
   min-height: 300px;
   /* Photo by <a href="https://unsplash.com/@sadswim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ian dooley</a> on <a href="https://unsplash.com/s/photos/work-desk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
   free to use under https://unsplash.com/license
   ^WORKFLOW IMAGE */
   background-image: url(../images/workFlow.jpg);
-  background-repeat: round;
+  background-size: cover;
 }
 #four {
   min-height: 300px;
@@ -69,13 +73,13 @@ h1 {
   free to use under https://unsplash.com/license
   ^RUBIKS CUBE IMAGE */
   background-image: url(../images/rubiks-img.jpg);
-  background-repeat: round;
+  background-size: cover;
 }
 #five {
   min-height: 300px;
   /* Photo by <a href="https://unsplash.com/@flyd2069?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">FLY:D</a> on <a href="https://unsplash.com/s/photos/lock-and-key?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
   background-image: url(../images/lock.jpg);
-  background-repeat: round;
+  background-size: cover;
 }
 #six {
   min-height: 300px;
